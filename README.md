@@ -12,9 +12,7 @@ This work re-evaluates rheological modeling of EVP materials by using a Physics-
 ## 🗂️ Repository Structure
 
 ### Data (`/data`)
-This folder contains the datasets used to train and validate the PINN models:
-* `[Insert your synthetic data file name here, e.g., synthetic_LAOS.csv]`: Synthetic stress data generated for baseline model validation.
-* `[Insert your experimental data file name here, e.g., experimental_stress.csv]`: Real-world experimental rheological data.
+This folder contains the experimental data of the attractive nanoemulsion with 40% volume fraction of PDMS oil dispersed in water. Various strain amplitudes at the fixed frequency of 10 rad/s
 
 ### Notebooks
 The root directory contains Jupyter Notebooks that walk through the training and evaluation of the models:
@@ -49,4 +47,5 @@ git clone [https://github.com/YourUsername/PINN_EVP_Rheology.git](https://github
 cd PINN_EVP_Rheology
 
 # Install requirements
+
 pip install -r requirements.txt
