@@ -25,6 +25,18 @@ The root directory contains Jupyter Notebooks that walk through the training and
 
 - The authors acknowledge the use of AI language models, specifically OpenAI's ChatGPT and Google's Gemini, which provided assistance in drafting and troubleshooting portions of the Python/PyTorch code in this repository.
 
+## ⚙️ Installation & Usage
+To run the code locally, we recommend creating a virtual environment and installing the dependencies:
+
+```bash
+# Clone the repository
+git clone [https://github.com/YourUsername/PINN_EVP_Rheology.git](https://github.com/YourUsername/PINN_EVP_Rheology.git)
+cd PINN_EVP_Rheology
+
+# Install requirements
+
+pip install -r requirements.txt
+
 ## 🖋️ Citation
 If you utilize this code or data in your research, please cite our upcoming paper. 
 
@@ -38,14 +50,5 @@ If you utilize this code or data in your research, please cite our upcoming pape
   year={202X}
 }
 
-## ⚙️ Installation & Usage
-To run the code locally, we recommend creating a virtual environment and installing the dependencies:
 
-```bash
-# Clone the repository
-git clone [https://github.com/YourUsername/PINN_EVP_Rheology.git](https://github.com/YourUsername/PINN_EVP_Rheology.git)
-cd PINN_EVP_Rheology
 
-# Install requirements
-
-pip install -r requirements.txt
